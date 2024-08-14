@@ -1,0 +1,85 @@
+body {
+  font-family: Roboto;
+}
+.main-container {
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-img {
+  text-align: center;
+}
+.main-container img {
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.main-container h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.main-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+  text-align: left;
+}
+
+@media (max-width: 575.98px) {
+  .main-container h1 {
+    font-size: medium;
+    margin-bottom: 8px;
+  }
+  .main-container p {
+    font-size: small;
+  }
+}
+
+@media (min-width: 576px) {
+  .main-container h1 {
+    font-size: large;
+    margin-bottom: 8px;
+  }
+  .main-container p {
+    font-size: medium;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-container h1 {
+    font-size: larger;
+    margin-bottom: 8px;
+  }
+  .main-container p {
+    font-size: large;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-container h1 {
+    font-size: x-large;
+    margin-bottom: 8px;
+  }
+  .main-container p {
+    font-size: larger;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-container h1 {
+    font-size: xx-large;
+    margin-bottom: 8px;
+  }
+  .main-container p {
+    font-size: x-large;
+  }
+}

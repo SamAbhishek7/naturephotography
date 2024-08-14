@@ -1,0 +1,47 @@
+.thumbnail-button img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.not-selected {
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+.thumbnail-button {
+  background-color: transparent;
+  border-style: none;
+}
+
+@media (max-width: 575.98px) {
+  .thumbnail-button img {
+    width: 50px;
+  }
+}
+
+@media (min-width: 576px) {
+  .thumbnail-button img {
+    width: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .thumbnail-button img {
+    width: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .thumbnail-button img {
+    width: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .thumbnail-button img {
+    width: 100px;
+  }
+}
